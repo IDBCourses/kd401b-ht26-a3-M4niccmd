@@ -3,9 +3,9 @@
   font-size: 30px;
 }
 
-.button {
+#theme {
   background-color: hsl(201 50% 42%);
 }
-.button:hover {
+#theme:hover {
   background-color: hsl(201 30% 25%);
 }
