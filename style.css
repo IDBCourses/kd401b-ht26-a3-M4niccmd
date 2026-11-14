@@ -6,7 +6,6 @@
 :root {
   --accent: hsl(155 50% 42%);
 }
-header,
 button {
   background-color: var(--accent);
 }
