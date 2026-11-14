@@ -4,7 +4,7 @@
 }
 
 .button {
-  background-color: var(--accent);
+  background-color: hsl(201 50% 42%);
 }
 .button:hover {
   background-color: hsl(201 30% 25%);
