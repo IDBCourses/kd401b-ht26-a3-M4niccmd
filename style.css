@@ -1,3 +1,7 @@
+:root {
+  --primary-800: hsl(207, 50, 80);
+}
+
 .intro {
   color: rgb(245, 0, 245);
   font-size: 30px;
