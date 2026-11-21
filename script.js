@@ -9,5 +9,5 @@ button.addEventListener("click", function () {
 
 button.addEventListener("click", function () {
   const readmode = link.getAttribute("href") === "reading.css";
-  link.setAttribute("href", readmore ? "reading.css" : null);
+  link.setAttribute("href", readmode ? "reading.css" : null);
 });
