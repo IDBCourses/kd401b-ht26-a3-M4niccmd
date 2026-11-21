@@ -1,5 +1,14 @@
 :root {
   --primary-800: hsl(207, 50, 80);
+
+  --color-text: hsl(270 30% 15%);
+
+  --font-body: "Literata", Georgia, serif;
+  --font-heading: "Jost", sans-serif;
+  --size-body: 1rem;
+  --size-h1: 2.441rem;
+  --leading-body: 1.5;
+  --measure: 65ch;
 }
 
 .intro {
@@ -12,4 +21,17 @@
 }
 #theme:hover {
   background-color: hsl(201 40% 30%);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--size-body);
+  line-height: var(--leading-body);
+}
+p {
+  max-width: var(--measure);
+}
+h1 {
+  font-family: var(--font-heading);
+  font-size: var(--size-h1);
 }
